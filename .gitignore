@@ -53,3 +53,6 @@ dkms.conf
 
 # Print binary tree functions file
 binary_tree_print.c
+
+# add main file that will be used only for local testing
+main.c
