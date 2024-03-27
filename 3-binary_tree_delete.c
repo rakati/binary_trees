@@ -3,13 +3,13 @@
 /**
  * binary_tree_delete - deletes the entire binary tree
  *
- * @parent: Pointer to the parent node
+ * @tree: Pointer to the root node
  *
  */
 void binary_tree_delete(binary_tree_t *tree)
 {
 	if (!tree)
-		return ;
+		return;
 	if (tree->right)
 		binary_tree_delete(tree->right);
 	if (tree->left)
