@@ -53,6 +53,8 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	int d;
 
+	if (tree == NULL)
+		return (0);
 	d = _tree_depth(tree);
 	return (is_same_depth(tree, 0, d));
 }
